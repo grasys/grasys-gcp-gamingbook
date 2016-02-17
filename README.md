@@ -74,7 +74,7 @@ gsutil lifecycle set {} $LOG_BUCKET
 vi /tmp/client_startup.sh
 ```
 
-[GoogleComputeEngine/client_startup.sh](GoogleComputeEngine/client_startup.sh)
+[GoogleComputeEngine/StartupScript/client_startup.sh](GoogleComputeEngine/StartupScript/client_startup.sh)
 
 ### redis_startup.sh
 
@@ -82,13 +82,13 @@ vi /tmp/client_startup.sh
 vi /tmp/redis_startup.sh
 ```
 
-[GoogleComputeEngine/redis_startup.sh](GoogleComputeEngine/redis_startup.sh)
+[GoogleComputeEngine/StartupScript/redis_startup.sh](GoogleComputeEngine/StartupScript/redis_startup.sh)
 
 ## gcloud compute instances createでInstance作成
 
 以下を実行
 
-[GoogleComputeEngine/instance_create.sh](GoogleComputeEngine/instance_create.sh)
+[GoogleComputeEngine/StartupScript/instance_create.sh](GoogleComputeEngine/StartupScript/instance_create.sh)
 
 ### get-serial-port-output
 
