@@ -1,0 +1,6 @@
+{
+  "redis": {
+    "host": "production-redis01",
+    "port": 6379
+  }
+}
