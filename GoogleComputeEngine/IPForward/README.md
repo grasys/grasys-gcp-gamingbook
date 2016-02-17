@@ -4,13 +4,13 @@
 
 以下を実行して下さい。
 
-[firewall-rule.sh](GoogleComputeEngine/IPForward/firewall-rule.sh)
+[firewall-rule.sh](firewall-rule.sh)
 
 ## プライオリティの1番低い最初のIP Forwardを作成
 
 以下を実行して下さい。
 
-[create-ipforward.sh](GoogleComputeEngine/IPForward/create-ipforward.sh)
+[create-ipforward.sh](create-ipforward.sh)
 
 ```
 gcloud compute routes list
@@ -20,5 +20,5 @@ gcloud compute routes list
 
 以下を実行して下さい。
 
-[update-ipforward.sh](GoogleComputeEngine/IPForward/update-ipforward.sh)
+[update-ipforward.sh](update-ipforward.sh)
 
